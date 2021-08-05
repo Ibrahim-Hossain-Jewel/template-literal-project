@@ -1,20 +1,5 @@
-//DOM manipulation for index.html;
-const body = document.querySelector('body');
-//now write the template literal for the home page.
-const homePage = `
-
-    <P>Making user panel with proper authentication</P>
-    <button><a href="Signup.html">Sign Up</a></button>
-    <button><a href="login.html">Log In</a></button>
-    <button onclick="bcrypt();">show</button>
-
-`;
-body.innerHTML = homePage;
-
-
-
+//
 const successMessage = document.querySelector(".successMessage");
-
 var userCounter = 0;
 function registration(jewel){
     userCounter++;
