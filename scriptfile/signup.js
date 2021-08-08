@@ -1,5 +1,5 @@
 //literal template for signup form in home work assignment
-const template = `
+const signupTemplate = `
     <h1>User registration panel</h1>
     <form>
     <input type="text" name="firstname" id="firstname" placeholder="firstname" value=""><br>
@@ -12,4 +12,4 @@ const template = `
     </form>
 `;
 const userloginForm = document.getElementById('userloginForm');
-userloginForm.innerHTML += template;
+userloginForm.innerHTML += signupTemplate;
